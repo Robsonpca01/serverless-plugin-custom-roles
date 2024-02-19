@@ -1,7 +1,7 @@
 'use strict';
 
 const semver = require('semver');
-const set = require('lodash.set');
+const { set } = require('lodash');
 
 const FUNCTION_SCHEMA = {
   properties: {
